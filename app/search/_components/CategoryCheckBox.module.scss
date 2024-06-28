@@ -1,0 +1,36 @@
+.fieldset {
+  margin-bottom: 1rem; /* fieldset のマージン設定 */
+}
+
+.container {
+  display: grid;
+  gap: 0.5rem; /* gap-2 の代わり */
+}
+
+.legend {
+  font-weight: bold; /* font-bold の代わり */
+}
+
+.checkboxContainer {
+  display: flex;
+  flex-direction: column; /* flex-col の代わり */
+  gap: 0.5rem; /* space-y-2 の代わり */
+}
+
+.checkbox {
+  display: flex;
+  align-items: center; /* items-center の代わり */
+  gap: 0.5rem; /* space-x-2 の代わり */
+}
+
+.inputCheckbox {
+  height: 1rem; /* h-4 の代わり */
+  width: 1rem; /* w-4 の代わり */
+  border-radius: 0.125rem; /* rounded-sm の代わり */
+  border: 1px solid #3490dc; /* border-primary の代わり */
+}
+
+.label {
+  font-size: 0.875rem; /* text-sm の代わり */
+  font-weight: 500; /* font-medium の代わり */
+}

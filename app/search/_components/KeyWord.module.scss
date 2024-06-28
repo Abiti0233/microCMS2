@@ -1,0 +1,38 @@
+.form {
+  display: grid;
+  gap: 0.5rem; /* gap-2 の代わり */
+}
+
+.label {
+  font-weight: bold; /* font-bold の代わり */
+}
+
+.inputContainer {
+  display: flex;
+  height: 2.5rem; /* h-10 の代わり */
+  width: 100%; /* w-full の代わり */
+  align-items: center; /* items-center の代わり */
+  border-radius: 0.25rem; /* rounded-md の代わり */
+  // border: 1px solid #e2e8f0; /* border-input の代わり */
+  // background-color: #edf2f7; /* bg-background の代わり */
+  padding-right: 0.5rem; /* pr-2 の代わり */
+  font-size: 0.875rem; /* text-sm の代わり */
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem; /* px-3 py-2 の代わり */
+  border: none;
+  outline: none;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+}
+
+.searchIcon {
+  height: 1rem; /* h-4 の代わり */
+  width: 1rem; /* w-4 の代わり */
+  opacity: 0.5; /* opacity-50 の代わり */
+}
