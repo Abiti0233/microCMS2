@@ -14,7 +14,7 @@ const Map = ({ zoom = 9, positions, center }: Props) => {
   console.log(positions)
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_API_KEY!
+    googleMapsApiKey: process.env.GOOGLE_API_KEY!
   })
   return isLoaded ? (
     <GoogleMap center={center} zoom={zoom} mapContainerStyle={mapContainerStyle}>
